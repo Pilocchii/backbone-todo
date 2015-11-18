@@ -1,0 +1,14 @@
+tutorial at http://code.tutsplus.com/tutorials/single-page-todo-application-with-backbonejs--cms-21417
+
+Objective: to learn about js and backbone implementations using a good directory structure
+
+Next: showing a list of all the tasks (router)
+
+Notes:
+
+Put your code into its own scope -- they all live in a private space. We'll use the revealing module pattern.
+
+It's good to initialize the views only once and leave them alive. Once the data is changed, we normally call methods
+of the view and update the content of its el object.
+
+Limitations:

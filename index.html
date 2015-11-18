@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todos</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" /> <!-- why trailing /? -->
+</head>
+<body>
+    <div class="container">
+        <div id="menu" class="menu cf"></div>
+        <h1></h1>
+        <div id="content"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <!-- Good practice to include external JS at the end of the body tag -->
+    <script src="js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+    <script src="js/vendor/backbone-min.js"></script>
+    <script src="js/App.js"></script>
+    <script src="js/models/ToDo.js"></script>
+    <script src="js/collections/ToDos.js"></script>
+    <script>
+        window.onload = function() {
+            // bootstrap
+        }
+    </script>
+
+</body>
+</html>
